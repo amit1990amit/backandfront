@@ -1,0 +1,76 @@
+.header {
+  background-color: #fff6e0;
+  padding: 10px 20px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.header-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.language-button, .login-button, .store-button, .membership-button, .whatsapp-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.language-button:hover, .login-button:hover, .store-button:hover, .membership-button:hover, .whatsapp-button:hover {
+  text-decoration: underline;
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #004085;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  text-align: center;
+}
+
+.tag:hover {
+  background: #002752;
+}
