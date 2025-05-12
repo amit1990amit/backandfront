@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "baseUrl": "./src", // This sets the base directory for module resolution
+    "paths": {
+      "@/*": ["./*"] // This maps all imports starting with '@/' to the baseUrl
+    },
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,406 @@
+[
+  {
+    "_id": "product_001",
+    "name": "Organic Apple",
+    "price": 2.99,
+    "price_per_weight": "per kg",
+    "category_id": "fruits",
+    "image_url": "https://example.com/images/organic-apple.jpg",
+    "stock_quantity": 150,
+    "discount_id": "discount_001",
+    "tags": [
+      "organic",
+      "fresh"
+    ]
+  },
+  {
+    "_id": "product_002",
+    "name": "Bananas",
+    "price": 1.49,
+    "price_per_weight": "per kg",
+    "category_id": "fruits",
+    "image_url": "https://example.com/images/bananas.jpg",
+    "stock_quantity": 200,
+    "discount_id": "discount_002",
+    "tags": [
+      "fresh",
+      "tropical"
+    ]
+  },
+  {
+    "_id": "product_003",
+    "name": "Chicken Breast",
+    "price": 5.99,
+    "price_per_weight": "per kg",
+    "category_id": "meat",
+    "image_url": "https://example.com/images/chicken-breast.jpg",
+    "stock_quantity": 80,
+    "discount_id": "discount_003",
+    "tags": [
+      "fresh",
+      "protein"
+    ]
+  },
+  {
+    "_id": "product_004",
+    "name": "Whole Milk",
+    "price": 1.29,
+    "category_id": "dairy",
+    "image_url": "https://example.com/images/whole-milk.jpg",
+    "stock_quantity": 120,
+    "discount_id": "discount_001",
+    "tags": [
+      "fresh",
+      "dairy"
+    ]
+  },
+  {
+    "_id": "product_005",
+    "name": "Orange Juice",
+    "price": 3.49,
+    "category_id": "beverages",
+    "image_url": "https://example.com/images/orange-juice.jpg",
+    "stock_quantity": 100,
+    "discount_id": "discount_004",
+    "tags": [
+      "fresh",
+      "juice"
+    ]
+  },
+  {
+    "_id": "product_006",
+    "name": "Brown Bread",
+    "price": 2.19,
+    "category_id": "bakery",
+    "image_url": "https://example.com/images/brown-bread.jpg",
+    "stock_quantity": 50,
+    "discount_id": "discount_002",
+    "tags": [
+      "fresh",
+      "whole grain"
+    ]
+  },
+  {
+    "_id": "product_007",
+    "name": "Eggs (12-pack)",
+    "price": 2.79,
+    "category_id": "dairy",
+    "image_url": "https://example.com/images/eggs-12-pack.jpg",
+    "stock_quantity": 130,
+    "discount_id": "discount_003",
+    "tags": [
+      "fresh",
+      "protein"
+    ]
+  },
+  {
+    "_id": "product_008",
+    "name": "Tomatoes",
+    "price": 1.99,
+    "price_per_weight": "per kg",
+    "category_id": "vegetables",
+    "image_url": "https://example.com/images/tomatoes.jpg",
+    "stock_quantity": 90,
+    "discount_id": "discount_002",
+    "tags": [
+      "fresh",
+      "organic"
+    ]
+  },
+  {
+    "_id": "product_009",
+    "name": "Salmon Fillet",
+    "price": 10.99,
+    "price_per_weight": "per kg",
+    "category_id": "meat",
+    "image_url": "https://example.com/images/salmon-fillet.jpg",
+    "stock_quantity": 60,
+    "discount_id": "discount_004",
+    "tags": [
+      "fresh",
+      "omega-3"
+    ]
+  },
+  {
+    "_id": "product_010",
+    "name": "Almonds",
+    "price": 7.99,
+    "price_per_weight": "per kg",
+    "category_id": "nuts",
+    "image_url": "https://example.com/images/almonds.jpg",
+    "stock_quantity": 110,
+    "discount_id": "discount_001",
+    "tags": [
+      "organic",
+      "healthy"
+    ]
+  },
+  {
+    "_id": "product_011",
+    "name": "Spaghetti",
+    "price": 1.19,
+    "category_id": "pantry",
+    "image_url": "https://example.com/images/spaghetti.jpg",
+    "stock_quantity": 100,
+    "discount_id": "discount_005",
+    "tags": [
+      "pasta",
+      "non-perishable"
+    ]
+  },
+  {
+    "_id": "product_012",
+    "name": "White Rice",
+    "price": 2.49,
+    "price_per_weight": "per kg",
+    "category_id": "pantry",
+    "image_url": "https://example.com/images/white-rice.jpg",
+    "stock_quantity": 150,
+    "discount_id": "discount_006",
+    "tags": [
+      "rice",
+      "non-perishable"
+    ]
+  },
+  {
+    "_id": "product_013",
+    "name": "Coca-Cola",
+    "price": 1.49,
+    "category_id": "beverages",
+    "image_url": "https://example.com/images/coca-cola.jpg",
+    "stock_quantity": 200,
+    "discount_id": "discount_004",
+    "tags": [
+      "soft drink",
+      "refreshing"
+    ]
+  },
+  {
+    "_id": "product_014",
+    "name": "Mineral Water",
+    "price": 0.99,
+    "category_id": "beverages",
+    "image_url": "https://example.com/images/mineral-water.jpg",
+    "stock_quantity": 300,
+    "discount_id": "discount_004",
+    "tags": [
+      "water",
+      "refreshing"
+    ]
+  },
+  {
+    "_id": "product_015",
+    "name": "Cheddar Cheese",
+    "price": 3.99,
+    "category_id": "dairy",
+    "image_url": "https://example.com/images/cheddar-cheese.jpg",
+    "stock_quantity": 80,
+    "discount_id": "discount_003",
+    "tags": [
+      "cheese",
+      "dairy"
+    ]
+  },
+  {
+    "_id": "product_016",
+    "name": "Ground Beef",
+    "price": 6.99,
+    "price_per_weight": "per kg",
+    "category_id": "meat",
+    "image_url": "https://example.com/images/ground-beef.jpg",
+    "stock_quantity": 70,
+    "discount_id": "discount_003",
+    "tags": [
+      "fresh",
+      "protein"
+    ]
+  },
+  {
+    "_id": "product_017",
+    "name": "Red Wine",
+    "price": 14.99,
+    "category_id": "alcohol",
+    "image_url": "https://example.com/images/red-wine.jpg",
+    "stock_quantity": 50,
+    "discount_id": "discount_007",
+    "tags": [
+      "wine",
+      "alcohol"
+    ]
+  },
+  {
+    "_id": "product_018",
+    "name": "Vodka",
+    "price": 19.99,
+    "category_id": "alcohol",
+    "image_url": "https://example.com/images/vodka.jpg",
+    "stock_quantity": 40,
+    "discount_id": "discount_007",
+    "tags": [
+      "vodka",
+      "alcohol"
+    ]
+  },
+  {
+    "_id": "product_019",
+    "name": "Broccoli",
+    "price": 2.29,
+    "price_per_weight": "per kg",
+    "category_id": "vegetables",
+    "image_url": "https://example.com/images/broccoli.jpg",
+    "stock_quantity": 100,
+    "discount_id": "discount_002",
+    "tags": [
+      "fresh",
+      "organic"
+    ]
+  },
+  {
+    "_id": "product_020",
+    "name": "Spinach",
+    "price": 1.99,
+    "price_per_weight": "per kg",
+    "category_id": "vegetables",
+    "image_url": "https://example.com/images/spinach.jpg",
+    "stock_quantity": 90,
+    "discount_id": "discount_002",
+    "tags": [
+      "fresh",
+      "organic"
+    ]
+  },
+  {
+    "_id": "product_021",
+    "name": "Canned Tuna",
+    "price": 2.59,
+    "category_id": "pantry",
+    "image_url": "https://example.com/images/canned-tuna.jpg",
+    "stock_quantity": 120,
+    "discount_id": "discount_005",
+    "tags": [
+      "canned",
+      "fish"
+    ]
+  },
+  {
+    "_id": "product_022",
+    "name": "Olive Oil",
+    "price": 6.99,
+    "category_id": "pantry",
+    "image_url": "https://example.com/images/olive-oil.jpg",
+    "stock_quantity": 100,
+    "discount_id": "discount_005",
+    "tags": [
+      "oil",
+      "non-perishable"
+    ]
+  },
+  {
+    "_id": "product_023",
+    "name": "Frozen Peas",
+    "price": 2.49,
+    "category_id": "frozen",
+    "image_url": "https://example.com/images/frozen-peas.jpg",
+    "stock_quantity": 90,
+    "discount_id": "discount_008",
+    "tags": [
+      "frozen",
+      "vegetables"
+    ]
+  },
+  {
+    "_id": "product_024",
+    "name": "Ice Cream",
+    "price": 4.99,
+    "category_id": "frozen",
+    "image_url": "https://example.com/images/ice-cream.jpg",
+    "stock_quantity": 70,
+    "discount_id": "discount_008",
+    "tags": [
+      "frozen",
+      "dessert"
+    ]
+  },
+  {
+    "_id": "product_025",
+    "name": "Shrimp",
+    "price": 12.99,
+    "price_per_weight": "per kg",
+    "category_id": "fish",
+    "image_url": "https://example.com/images/shrimp.jpg",
+    "stock_quantity": 50,
+    "discount_id": "discount_004",
+    "tags": [
+      "fresh",
+      "seafood"
+    ]
+  },
+  {
+    "_id": "product_026",
+    "name": "T-Bone Steak",
+    "price": 15.99,
+    "price_per_weight": "per kg",
+    "category_id": "meat",
+    "image_url": "https://example.com/images/t-bone-steak.jpg",
+    "stock_quantity": 30,
+    "discount_id": "discount_003",
+    "tags": [
+      "fresh",
+      "protein"
+    ]
+  },
+  {
+    "_id": "product_027",
+    "name": "Mango",
+    "price": 1.99,
+    "price_per_weight": "per kg",
+    "category_id": "fruits",
+    "image_url": "https://example.com/images/mango.jpg",
+    "stock_quantity": 100,
+    "discount_id": "discount_001",
+    "tags": [
+      "fresh",
+      "tropical"
+    ]
+  },
+  {
+    "_id": "product_028",
+    "name": "Blueberries",
+    "price": 3.99,
+    "price_per_weight": "per kg",
+    "category_id": "fruits",
+    "image_url": "https://example.com/images/blueberries.jpg",
+    "stock_quantity": 70,
+    "discount_id": "discount_002",
+    "tags": [
+      "fresh",
+      "berries"
+    ]
+  },
+  {
+    "_id": "product_029",
+    "name": "Peanut Butter",
+    "price": 2.99,
+    "category_id": "pantry",
+    "image_url": "https://example.com/images/peanut-butter.jpg",
+    "stock_quantity": 62,
+    "discount_id": "discount_005",
+    "tags": [
+      "pantry",
+      "non-perishable"
+    ]
+  },
+  {
+    "_id": "product_030",
+    "name": "Dark Chocolate",
+    "price": 3.49,
+    "category_id": "snacks",
+    "image_url": "https://example.com/images/dark-chocolate.jpg",
+    "stock_quantity": 80,
+    "discount_id": "discount_006",
+    "tags": [
+      "snacks",
+      "dessert"
+    ]
+  }
+]
