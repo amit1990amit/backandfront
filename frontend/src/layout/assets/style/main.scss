@@ -1,14 +1,2 @@
-@import "./variables.scss";
-@import "./header.scss";
-@import './productCard.scss';
-@import './productList.scss';
-.app {
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    margin: $spacing-sm;
-  }
-}
+@import "./header.scss";
