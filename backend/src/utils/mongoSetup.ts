@@ -5,6 +5,8 @@ const dbName = "testDB";
 const url = 'mongodb://localhost:27017'
 
 const productsCollection = "products";
+const productsAssignmentsCollection = "assignments"
+const productsChargesCollection = 'charges'
 
 export async function getCollection<T extends Document>(
   collectionName: string
@@ -23,4 +25,4 @@ export const startMongo = async () => {
   .catch((err: any) => console.error("Could not connect to MongoDB...", err));
 };
 
-export { productsCollection };
+export { productsCollection, productsAssignmentsCollection, productsChargesCollection };

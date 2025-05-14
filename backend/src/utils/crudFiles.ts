@@ -21,3 +21,5 @@ export async function writeJsonFile<T>(
 }
 
 export const PRODUCTS_FILE_PATH = path.join(__dirname, "data", "products.json");
+export const PRODUCTS_ASSIGNMENT_FILE_PATH = path.join(__dirname, "data", "product_assignment.json");
+export const PRODUCTS_CHARGES_FILE_PATH = path.join(__dirname, "data", "product_charges.json");

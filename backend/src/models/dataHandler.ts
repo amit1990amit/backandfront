@@ -3,10 +3,14 @@ import {
   readJsonFile,
   writeJsonFile,
   PRODUCTS_FILE_PATH,
+  PRODUCTS_ASSIGNMENT_FILE_PATH,
+  PRODUCTS_CHARGES_FILE_PATH,
 } from "../utils/crudFiles";
 import {
   getCollection,
   productsCollection,
+  productsAssignmentsCollection,
+  productsChargesCollection,
 } from "../utils/mongoSetup";
 
 import { Document } from "mongodb";
@@ -158,6 +162,18 @@ export const mapHandles = {
     allProducts: {
       collectionName: productsCollection,
       filePath: PRODUCTS_FILE_PATH,
+    },
+  },
+  productsAssignments: {
+    allProductsAssignments: {
+      collectionName: productsAssignmentsCollection,
+      filePath: PRODUCTS_ASSIGNMENT_FILE_PATH,
+    },
+  },
+  productsCharges: {
+    allProductsCharges: {
+      collectionName: productsChargesCollection,
+      filePath: PRODUCTS_CHARGES_FILE_PATH,
     },
   },
 };
