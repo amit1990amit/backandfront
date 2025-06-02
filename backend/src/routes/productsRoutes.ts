@@ -31,9 +31,9 @@ const router = Router();
 
 router.get('/', listProducts);
 router.get('/:id', getProduct);
-router.post('/', addProduct);
-router.patch('/:id', patchProduct);
-router.delete('/:id', removeProduct);
+router.post('/create', addProduct);
+router.patch('/update/:id', patchProduct);
+router.delete('/delete/:id', removeProduct);
 
 export default router;
 

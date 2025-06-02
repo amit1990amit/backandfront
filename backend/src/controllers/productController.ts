@@ -167,6 +167,7 @@ export const addProduct = async (req: Request, res: Response, next: NextFunction
 export const patchProduct = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { id } = req.params;
+    console.log('patchProduct111', id)
 
     if (!Types.ObjectId.isValid(id)) {
       return res.status(400).json({ error: 'Invalid product id' });
